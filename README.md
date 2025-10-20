@@ -6,14 +6,10 @@ The goal was to create a sciprt that would log system health information but cou
 
 Steps:
 1.) I ensured that Python 3 was installed (it was) and verified the version (python 3.13)
-
 2.) I opened a cmd (admin) and installed psutil using:
 pip install psutil
-
 3.) I created a .py file by opening Notepad++ and creating a file called sys_mon.py and saved the file. 
-
 4.) I verified that the file was created and was a py file
-
 5.) I opened the sys_mon.py file in Notepad++ and wrote the following:
 
 import psutil, time, csv, datetime
